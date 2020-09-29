@@ -17,7 +17,17 @@ class _progressiveinsuranceState extends State<progressiveinsurance> {
         title: Text("Progressive"),
       ),
       body: Column(
-        children: <widget>[],
+        children: <Widget>[
+          Image.asset('Assets/logo.jpg'),
+          IconButton(
+            icon: Icon(Icons.add),
+            onPressed: null,
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("Have a good day!"),
+          )
+        ],
       ),
     );
   }
